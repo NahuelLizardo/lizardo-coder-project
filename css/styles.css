@@ -39,7 +39,9 @@ body{
 /* ---------------------------- */
 
 .header {
-    background-color: #d0ebff;
+    background-color: rgb(208, 235, 255,0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -80,7 +82,7 @@ body{
 
 .nav-menu li a:hover{
     text-decoration: underline;
-    text-decoration-color: #d0ebff;
+    text-decoration-color: rgb(208, 235, 255,0.3);
 }
 
 .portada-image {
@@ -179,12 +181,20 @@ body{
 }
 
 .footer-1{
-    background-color: #d0ebff;
+    background-color: rgb(209, 235, 255,0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+}
+
+@media (max-width: 550px) {
+    .footer-1 {flex-direction: column;
+        align-content: center;
+    }
 }
 
 .list-footer{
@@ -204,7 +214,7 @@ body{
 
 .list-footer li a:hover{
     text-decoration: underline;
-    text-decoration-color: #d0ebff;
+    text-decoration-color: rgb(208, 235, 255,0.3);
 }
 
 /* ---------------------------------- */
