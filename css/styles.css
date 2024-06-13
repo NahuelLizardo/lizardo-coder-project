@@ -253,7 +253,10 @@ body{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
 }
+
 
 /* ------------------- */
 
@@ -265,6 +268,7 @@ body{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 20rem) {
@@ -408,7 +412,7 @@ body{
 
 
 .Galeria-contenido img:hover {
-    transform: scale(1.05);
+    transform: scale(1.005);
     opacity: 0.9;
 }
 
@@ -465,6 +469,8 @@ body{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* -------------- */
@@ -480,7 +486,7 @@ body{
     grid-auto-rows: auto;
     grid-template-columns: repeat(3,1fr);
     max-width: 80%;
-    gap: 10px;
+    gap: 20px;
 }
 
 @media screen and (min-width: 20rem) {
