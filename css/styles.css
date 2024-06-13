@@ -102,7 +102,7 @@ body{
 
 
 @media (max-width: 480px) {
-    .portada-image {height: 200px;
+    .portada-image {height: 150px;
     }
 }
 
@@ -223,9 +223,9 @@ body{
     background-image: url(../assets/eventos-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    /* max-width: 100%; */
     height: 400px;
 }
 
@@ -236,8 +236,12 @@ body{
 
 
 @media (max-width: 480px) {
-    .eventos-main {height: 200px;
+    .eventos-main {height: 150px;
     }
+}
+
+.eventos-main h1{
+    font-family: gtsuper;
 }
 
 .eventos-texto {
@@ -309,9 +313,9 @@ body{
     background-image: url(../assets/portada-galeria.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
+    background-position: center center;
+    /* background-attachment: fixed;
+    max-width: 100%; */
     height: 400px;
 }
 
@@ -322,8 +326,12 @@ body{
 
 
 @media (max-width: 480px) {
-    .Galeria-main {height: 200px;
+    .Galeria-main {height: 150px;
     }
+}
+
+.Galeria-main h1{
+    font-family: gtsuper;
 }
 
 .Galeria-contenedor {
@@ -428,8 +436,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
+    /* background-attachment: fixed;
+    max-width: 100%; */
     height: 400px;
 }
 
@@ -440,8 +448,12 @@ body{
 
 
 @media (max-width: 480px) {
-    .portada-habitaciones {height: 200px;
+    .portada-habitaciones {height: 150px;
     }
+}
+
+.portada-habitaciones h1{
+    font-family: gtsuper;
 }
 
 .body-1-habitaciones {
@@ -515,8 +527,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
+    /* background-attachment: fixed;
+    max-width: 100%; */
     height: 400px;
 }
 
@@ -527,8 +539,12 @@ body{
 
 
 @media (max-width: 480px) {
-    .portada-contacto {height: 200px;
+    .portada-contacto {height: 150px;
     }
+}
+
+.portada-contacto h1{
+    font-family: gtsuper;
 }
 
 .map-container {
