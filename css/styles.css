@@ -84,10 +84,10 @@ body {
   gap: 100px; }
 
 .image1-articulo {
-  width: 16rem; }
+  width: 14rem; }
   .image1-articulo img {
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     margin-bottom: 10px;
     transition: transform 0.5s ease, opacity 0.5s ease; }
     .image1-articulo img:hover {
