@@ -3,6 +3,7 @@ $color_2: rgb(255, 255, 255);
 $color_3: black;
 $color_4: white;
 $color_5: #333;
+$color_6: rgb(255, 252, 233);
 $font-family_1: "Lato", sans-serif;
 $font-family_2: gtsuper;
 $background-color_1: rgba(208, 235, 255, 0.3);
@@ -133,17 +134,62 @@ body {
 	justify-content: center;
 	gap: 100px;
 }
-.articulo-2 {
-	img {
-		width: 320px;
-		height: auto;
-		transition: transform 0.5s ease, opacity 0.5s ease;
-		&:hover {
-			transform: scale(1.1);
-			opacity: 0.9;
+
+.room {
+	&__image {
+	width: 100%;
+	display: block;
+	}
+
+	&__details {
+	padding: 20px;
+	background-color: $color_6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+	&__title {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+
+		span {
+		font-size: 16px;
 		}
 	}
-}
+
+	&__button {
+		padding: 10px 20px;
+		background-color: $color_1;
+		color: $color_2;
+		border: none;
+		cursor: pointer;
+
+	&:hover {
+		background-color: darken($color_1, 10%);
+		transform: scale(1.1);
+		opacity: 0.9;
+		}
+	}
+	}
+
+
+// .articulo-2 {
+// 	img {
+// 		width: 320px;
+// 		height: auto;
+// 		transition: transform 0.5s ease, opacity 0.5s ease;
+// 		&:hover {
+// 			transform: scale(1.1);
+// 			opacity: 0.9;
+// 		}
+// 	}
+// }
 .footer-1 {
 	background-color: $background-color_2;
 	border-radius: 8px;
