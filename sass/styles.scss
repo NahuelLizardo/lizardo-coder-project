@@ -286,6 +286,7 @@ body {
 	}
 }
 .Galeria-texto-contenido {
+	padding: 1rem;
 	width: 37.9375rem;
 	height: 19.6875rem;
 	background-color: $background-color_4;
@@ -328,6 +329,7 @@ body {
 	box-shadow: 0 0 10px $background-color_7;
 	padding: 4px;
 	margin: auto;
+	text-align: center;
 	img {
 		width: 100%;
 		height: auto;
