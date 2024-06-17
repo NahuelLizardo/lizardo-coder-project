@@ -134,7 +134,6 @@ body {
 	justify-content: center;
 	gap: 100px;
 }
-
 .room {
 	&__image {
 	width: 100%;
@@ -175,6 +174,7 @@ body {
 	}
 
 	&__button {
+		margin-bottom: 20px;
 		padding: 10px 20px;
 		background-color: $color_1;
 		color: $color_2;
