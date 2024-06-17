@@ -129,6 +129,12 @@ body {
   .room__info span {
     font-size: 16px; }
 
+.room__guests {
+  padding: 0.5rem; }
+
+.room__size {
+  padding: 0.5rem; }
+
 .room__button {
   padding: 10px 20px;
   background-color: black;
