@@ -113,7 +113,7 @@ body {
 
 .room__details {
   padding: 20px;
-  background-color: #fffce9;
+  background-color: rgba(209, 235, 255, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -130,9 +130,13 @@ body {
     font-size: 16px; }
 
 .room__guests {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0.5rem; }
 
 .room__size {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0.5rem; }
 
 .room__button {

@@ -143,7 +143,7 @@ body {
 
 	&__details {
 	padding: 20px;
-	background-color: $color_6;
+	background-color: $background-color_2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -163,10 +163,14 @@ body {
 		}
 	}
 	&__guests{
+		display: flex;
+		flex-wrap: wrap;
 		padding: 0.5rem;
 	}
 
 	&__size{
+		display: flex;
+		flex-wrap: wrap;
 		padding: 0.5rem;
 	}
 
@@ -550,3 +554,4 @@ button {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
+
