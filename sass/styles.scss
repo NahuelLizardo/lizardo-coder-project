@@ -190,18 +190,6 @@ body {
 	}
 	}
 
-
-// .articulo-2 {
-// 	img {
-// 		width: 320px;
-// 		height: auto;
-// 		transition: transform 0.5s ease, opacity 0.5s ease;
-// 		&:hover {
-// 			transform: scale(1.1);
-// 			opacity: 0.9;
-// 		}
-// 	}
-// }
 .footer-1 {
 	background-color: $background-color_2;
 	border-radius: 8px;
@@ -455,7 +443,7 @@ body {
 .button-container {
 	text-align: center;
 }
-button {
+.boton {
 	background-color: $background-color_5;
 	padding: 10px 20px;
 	border: none;
@@ -465,6 +453,14 @@ button {
 		background-color: $background-color_6;
 	}
 }
+@media (max-width: 991px) {
+	.room{
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 @media (max-width: 768px) {
 	body {
 		font-size: 1rem;
