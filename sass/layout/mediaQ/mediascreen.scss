@@ -1,0 +1,23 @@
+@media screen and (min-width: 20rem) {
+	.eventos-galeria {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.galeria {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media screen and (min-width: 64rem) {
+	.eventos-galeria {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (min-width: 48rem) {
+	.galeria {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (min-width: 90rem) {
+	.galeria {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

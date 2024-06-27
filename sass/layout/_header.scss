@@ -1,0 +1,39 @@
+.header {
+	background-color:map-get($colores, background-color_1);
+	border-radius: 8px;
+	box-shadow: 0 0 10px map-get($colores, background-color_7);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+.logo {
+	border-radius: 100%;
+	background-image: url(../assets/logo.jpeg);
+	width: 50px;
+	height: 50px;
+}
+.search-bar {
+	border-radius: 20px;
+	border: none;
+	padding-left: 10px;
+}
+.nav-menu {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 100px;
+	li {
+		a {
+			padding-right: 20px;
+			color: map-get($colores, color_1);
+			text-decoration: none;
+			transition: text-decoration-color 0.5s ease-in-out;
+			&:hover {
+				text-decoration: underline;
+				text-decoration-color: map-get($colores, background-color_1);
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.portada-habitaciones {
+	background-image: url(../assets/portada-habitaciones.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	h1 {
+		font-family: map-get($fuente, font-family_2);
+	}
+}
+.body-1-habitaciones {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.body-2-habitaciones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.galeria {
+	display: grid;
+	grid-auto-rows: auto;
+	grid-template-columns: repeat(3,1fr);
+	max-width: 80%;
+	gap: 20px;
+}
+.foto {
+	border-radius: 8px;
+	box-shadow: 0 0 10px map-get($colores, background-color_7);
+	padding: 4px;
+	margin: auto;
+	text-align: center;
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	p {
+		text-align: center;
+		margin-top: 8px;
+	}
+}

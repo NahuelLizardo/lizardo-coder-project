@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+	body {
+		font-size: 1rem;
+	}
+	.portada-image {
+		height: 300px;
+	}
+	.eventos-main {
+		height: 300px;
+	}
+	.Galeria-main {
+		height: 300px;
+	}
+	.Galeria-contenido {
+		img {
+			width: 31.25rem;
+			height: auto;
+		}
+	}
+	.Galeria-texto-contenido {
+		width: 31.25rem;
+		height: auto;
+	}
+	.portada-habitaciones {
+		height: 300px;
+	}
+	.portada-contacto {
+		height: 300px;
+	}
+}

@@ -1,0 +1,28 @@
+.footer-1 {
+	background-color: map-get($colores, background-color_2);
+	border-radius: 8px;
+	box-shadow: 0 0 10px map-get($colores, background-color_7);
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+}
+.list-footer {
+	list-style-type: none;
+	li {
+		&::before {
+			content: "🌙";
+			padding-right: 8px;
+		}
+		a {
+			text-decoration: none;
+			color: map-get($colores, color_3);
+			transition: text-decoration-color 0.5s ease-in-out;
+			&:hover {
+				text-decoration: underline;
+				text-decoration-color: map-get($colores, background-color_1);
+			}
+		}
+	}
+}

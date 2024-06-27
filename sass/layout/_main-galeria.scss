@@ -1,0 +1,69 @@
+.Galeria-main {
+	background-image: url(../assets/portada-galeria.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+	h1 {
+		font-family: map-get($fuente, font-family_2);
+	}
+}
+.Galeria-contenedor {
+	gap: 10px;
+}
+.Galeria-contenedor1 {
+	gap: 10px;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Galeria-subtitulo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+.Galeria-subtitulo2 {
+	display: flex;
+	justify-content: center;
+	h3 {
+		width: 75.875rem;
+	}
+}
+.Galeria-navegacion {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	a {
+		width: 200px;
+		color: map-get($colores, color_3);
+		text-decoration: none;
+		box-shadow: 0 0 10px map-get($colores, background-color_7);
+		&:hover {
+			background-color: map-get($colores, background-color_3);
+			transition: background-color 0.7s;
+		}
+	}
+}
+.Galeria-contenido {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	overflow: hidden;
+	img {
+		width: 37.9375rem;
+		height: 19.6875rem;
+		transition: transform 0.5s ease, opacity 0.5s ease;
+		&:hover {
+			transform: scale(1.005);
+			opacity: 0.9;
+		}
+	}
+}
+.Galeria-texto-contenido {
+	padding: 1rem;
+	width: 37.9375rem;
+	height: 19.6875rem;
+	background-color: map-get($colores, background-color_4);
+}
