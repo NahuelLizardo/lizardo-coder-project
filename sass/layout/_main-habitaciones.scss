@@ -1,11 +1,11 @@
+@import "../utilities/mixin";
+
 .portada-habitaciones {
+	@include background-image-style;
 	background-image: url(../assets/portada-habitaciones.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	height: 400px;
 	h1 {
-		font-family: map-get($fuente, font-family_2);
+		@include font-family-h1;
 	}
 }
 .body-1-habitaciones {
@@ -33,7 +33,7 @@
 }
 .foto {
 	border-radius: 8px;
-	box-shadow: 0 0 10px map-get($colores, background-color_7);
+	@include box-shadow;
 	padding: 4px;
 	margin: auto;
 	text-align: center;

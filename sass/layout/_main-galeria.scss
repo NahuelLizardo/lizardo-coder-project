@@ -1,11 +1,11 @@
+@import "../utilities/mixin";
+
 .Galeria-main {
+	@include background-image-style;
 	background-image: url(../assets/portada-galeria.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 	height: 400px;
 	h1 {
-		font-family: map-get($fuente, font-family_2);
+		@include font-family-h1;
 	}
 }
 .Galeria-contenedor {
@@ -38,7 +38,7 @@
 		width: 200px;
 		color: map-get($colores, color_3);
 		text-decoration: none;
-		box-shadow: 0 0 10px map-get($colores, background-color_7);
+		@include box-shadow;
 		&:hover {
 			background-color: map-get($colores, background-color_3);
 			transition: background-color 0.7s;
@@ -54,11 +54,7 @@
 	img {
 		width: 37.9375rem;
 		height: 19.6875rem;
-		transition: transform 0.5s ease, opacity 0.5s ease;
-		&:hover {
-			transform: scale(1.005);
-			opacity: 0.9;
-		}
+		@include hover-transform;
 	}
 }
 .Galeria-texto-contenido {

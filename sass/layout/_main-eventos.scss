@@ -1,11 +1,11 @@
+@import "../utilities/mixin";
+
 .eventos-main {
+	@include background-image-style;
 	background-image: url(../assets/eventos-main.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 	height: 400px;
 	h1 {
-		font-family: map-get($fuente, font-family_2);
+		@include font-family-h1;
 	}
 }
 .eventos-texto {
@@ -34,11 +34,7 @@
 	img {
 		width: 100%;
 		height: auto;
-		transition: transform 0.5s ease, opacity 0.5s ease;
-		&:hover {
-			transform: scale(1.05);
-			opacity: 0.9;
-		}
+		@include hover-transform;
 	}
 	span {
 		position: absolute;
