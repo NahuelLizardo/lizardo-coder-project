@@ -1,9 +1,11 @@
 @import "../utilities/mixin";
+@import "../utilities/keyframes";
 
 .eventos-main {
 	@include background-image-style;
 	background-image: url(../assets/eventos-main.jpg);
 	height: 400px;
+	animation: fadeIn 2s ease-in-out;
 	h1 {
 		@include font-family-h1;
 	}

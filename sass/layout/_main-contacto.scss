@@ -1,9 +1,11 @@
 @import "../utilities/mixin";
+@import "../utilities/keyframes";
 
 .portada-contacto {
 	@include background-image-style;
 	background-image: url(../assets/portada-contacto.png);
 	height: 400px;
+	animation: fadeIn 2s ease-in-out;
 	h1 {
 		@include font-family-h1;
 	}

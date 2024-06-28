@@ -1,4 +1,5 @@
 @import "../utilities/mixin";
+@import "../utilities/keyframes";
 
 .header {
 	@include box-shadow;
@@ -10,6 +11,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
+	animation: slideInLeft 1s ease-in-out;
   }
 .logo {
 	border-radius: 100%;
@@ -31,6 +33,7 @@
 			&:hover {
 				text-decoration: underline;
 				text-decoration-color: map-get($colores, background-color_1);
+				animation: rotateIn 0.5s ease-in-out;
 			}
 		}
 	}

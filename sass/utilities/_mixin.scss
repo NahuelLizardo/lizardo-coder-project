@@ -1,3 +1,5 @@
+@import "../utilities/keyframes";
+
 @mixin box-shadow {
     box-shadow: 0 0 10px map-get($colores, background-color_7);
   }
@@ -11,8 +13,9 @@
   @mixin hover-transform {
     transition: transform 0.5s ease, opacity 0.5s ease;
     &:hover {
-      transform: scale(1.1);
-      opacity: 0.9;
+      // transform: scale(1.1);
+      // opacity: 0.9;
+      animation: pulse 0.5s ease-in-out;
     }
   }
   
