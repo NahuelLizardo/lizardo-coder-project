@@ -4,7 +4,7 @@
 
 .portada-image {
 	height: 400px;
-	background-image: url("../assets/article2.jpg");
+	background-image: url("../assets/article2.avif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -48,7 +48,7 @@
 .banner {
 	@include box-shadow;
 	@include background-image-style;
-	background-image: url(../assets/banner.png);
+	background-image: url(../assets/banner.avif);
 	height: 200px;
 	margin-top: 2rem;
 }

@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   font-style: italic;
   font-size: 1.25rem;
-  background-image: url(../assets/fondositio.jpeg);
+  background-image: url(../assets/fondositio.avif);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -126,7 +126,7 @@ body {
 
 .logo {
   border-radius: 100%;
-  background-image: url(../assets/logo.jpeg);
+  background-image: url(../assets/logo.avif);
   width: 50px;
   height: 50px; }
 
@@ -239,7 +239,7 @@ body {
 
 .portada-image {
   height: 400px;
-  background-image: url("../assets/article2.jpg");
+  background-image: url("../assets/article2.avif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -280,7 +280,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/banner.png);
+  background-image: url(../assets/banner.avif);
   height: 200px;
   margin-top: 2rem; }
 
@@ -433,7 +433,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/eventos-main.jpg);
+  background-image: url(../assets/eventos-main.avif);
   height: 400px;
   animation: fadeIn 2s ease-in-out; }
   .eventos-main h1 {
@@ -571,7 +571,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/portada-galeria.png);
+  background-image: url(../assets/portada-galeria.avif);
   height: 400px;
   animation: fadeIn 2s ease-in-out; }
   .Galeria-main h1 {
@@ -726,7 +726,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/portada-habitaciones.png);
+  background-image: url(../assets/portada-habitaciones.avif);
   height: 400px;
   animation: fadeIn 2s ease-in-out; }
   .portada-habitaciones h1 {
@@ -865,7 +865,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../assets/portada-contacto.png);
+  background-image: url(../assets/portada-contacto.avif);
   height: 400px;
   animation: fadeIn 2s ease-in-out; }
   .portada-contacto h1 {
